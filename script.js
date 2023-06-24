@@ -21,6 +21,7 @@ function checkTypedText() {
       document.getElementById('quoteInput').value = '';
       document.getElementById('quoteInput').className = '';
       fetchRandomQuote();
+      resetTimer();
     }, 3000);
   } else {
     document.getElementById('quoteInput').className = 'red-text';
